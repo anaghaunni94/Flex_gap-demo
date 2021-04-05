@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    margin: 12px;
+    background-color: rgb(192, 209, 115);
+    flex-flow: column wrap;
+    gap: 20px;
+
+}
+.box {
+    flex-grow: 1;
+    border: 1px solid red;
+}
